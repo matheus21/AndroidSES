@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Consultas App</string>
+
+    <!-- Login -->
+    <string name="text_login">Login:</string>
+    <string name="text_senha">Senha:</string>
+    <string name="btn_logar">Entrar</string>
+
+    <!-- Nova Senha -->
+    <string name="txt_nova_senha">Nova Senha:</string>
+    <string name="txt_confirma_senha">Confirme a senha:</string>
+    <string name="btn_alterar_senha">Confirmar</string>
+
+    <string name="lbl_agendar">Agende sua consulta:</string>
+
+    <string name="lbl_cadastrar_consulta">Agendar Consulta</string>
+    <string name="lbl_listar_consulta">Minhas Consultas</string>
+
+    <string name="lbl_sair">Sair</string>
+</resources>

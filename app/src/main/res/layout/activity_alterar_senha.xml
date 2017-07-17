@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_login_padding"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context="app.consultas.com.br.appconsultas.LoginActivity">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/icone_login_margin_top"
+        android:layout_marginBottom="@dimen/icone_login_margin_bottom"
+        android:src="@drawable/icone_alterar_senha"/>
+
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/txt_nova_senha"-->
+        <!--android:textColor="@color/colorWhite"-->
+        <!--android:textSize="@dimen/txt_login_size" />-->
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtNovaSenha"
+        android:inputType="textPassword"
+        android:hint="@string/txt_nova_senha"
+        android:paddingBottom="20dp"/>
+
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/txt_confirma_senha"-->
+        <!--android:textColor="@color/colorWhite"-->
+        <!--android:textSize="@dimen/txt_senha_size"-->
+        <!--/>-->
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtConfirmaSenha"
+        android:inputType="textPassword"
+        android:hint="@string/txt_confirma_senha"
+        android:paddingBottom="20dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="@string/btn_alterar_senha"
+        android:textColor="@color/colorWhite"
+        android:layout_marginTop="@dimen/btn_login_margin_top"
+        android:id="@+id/btnAlterarSenha"/>
+
+</LinearLayout>
